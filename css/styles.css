@@ -1,0 +1,89 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #222222;
+  color: #fff;
+}
+
+h1 {
+  color: #333;
+}
+
+#word {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+#guessInput {
+  font-family: 'Poppins', sans-serif;
+  width: 200px;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 0;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+#guessInput:focus {
+  outline: 0;
+}
+
+#submitBtn {
+  font-family: 'Poppins', sans-serif;
+  width: 100px;
+  height: 43px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 0;
+  font-size: 18px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+#submitBtn:hover {
+  background-color: #474747;
+  transition: 0.2s;
+}
+
+#message {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/******/
+
+.container-hang-h1-asp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b2b2b;
+  color: #fff;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  box-shadow: 0px 0px 20px #fff;
+}
+
+#word {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 40px;
+  margin-top: 150px;
+}
+
+.container-hang-btn-asp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
